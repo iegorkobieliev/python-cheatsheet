@@ -1,3 +1,5 @@
+13 Virtual Environment
+
 # Create a virtual environment
 python -m venv myenv
 
@@ -6,4 +8,17 @@ source myenv/bin/activate  # On Unix or MacOS
 myenv\Scripts\activate  # On Windows
 
 # Deactivate the virtual environment
+deactivate
+
+
+36 Virtual Environment
+
+# Create a virtual environment
+python -m venv myenv
+
+# Activate virtual environment
+source myenv/bin/activate  # On Unix/Linux
+myenv\Scripts\activate  # On Windows
+
+# Deactivate virtual environment
 deactivate
